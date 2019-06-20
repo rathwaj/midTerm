@@ -6,7 +6,6 @@
 package arithmetic;
 
 
-import java.util.Scanner;
 
 /** This class calls the method to perform 
  * arithmetic operations based on user input
@@ -24,13 +23,11 @@ public class Arithmetic
     {
        
         ArithmeticBase r= new ArithmeticBase();
-        double result = r.calculate(1,2);
-        System.out.println("result :" +result); 
-    
+//        for(int s=0;s<5;s++){
+        System.out.println(r.calculate(1,2));
+        //System.out.println("result :" +result); 
+//        }
     }
-
-
-
 
 
 }
